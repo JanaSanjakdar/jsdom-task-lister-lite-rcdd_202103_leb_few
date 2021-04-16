@@ -21,7 +21,7 @@ const newTask = document.queryselector("new-task-description").value
 //taskItem.innerText = newTask
 //taskList.appendchild(taskItem)
 taskList.inner HTML += `<li> ${newTask}
-<button> X for delete</button>
+<button class="delete-btn"> X for delete</button>
  </li>`
 
 taskForm.reset()
