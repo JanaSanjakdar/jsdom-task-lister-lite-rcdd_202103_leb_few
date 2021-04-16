@@ -25,7 +25,7 @@ taskList.inner HTML += `<li> ${newTask}
  </li>`
 
 taskForm.reset()
-});
+})
 taskList.addEventListener("click", function(){
 
 })
