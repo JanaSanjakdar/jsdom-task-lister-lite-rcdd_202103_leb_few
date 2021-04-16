@@ -27,5 +27,7 @@ taskList.inner HTML += `<li> ${newTask}
 taskForm.reset()
 })
 taskList.addEventListener("click", function(e){
-
+if (e.target.dataset.action ==="delete"){
+  e.target.parentElement.remove()
+}
 })
